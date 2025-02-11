@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/parts/EasyEDA.kicad_sym")(options "")(descr ""))
+  (lib (name "Samacsys")(type "KiCad")(uri "${KIPRJMOD}/parts/Samacsys.kicad_sym")(options "")(descr ""))
+)

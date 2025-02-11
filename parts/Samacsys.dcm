@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74HCT125DR
+D Quadruple Bus Buffer Gates With 3-State Outputs
+K
+F http://www.ti.com/lit/ds/symlink/sn74hct125.pdf
+$ENDCMP
+#
+$CMP SS34
+D TAIWAN SEMICONDUCTOR - SS34 - DIODE, SCHOTTKY, 3A, 40V
+K
+F https://componentsearchengine.com/Datasheets/1/SS34.pdf
+$ENDCMP
+#
+$CMP NRVB120VLSFT1G
+D Guardring for Stress Protection; Optimized for Very Low Forward Voltage; 125 C Operating Junction Temperature; Epoxy Meets UL94, VO; Package Designed for Optimal Automated Board Assembly; ESD Rated Machine Model C; ESD Rated Human Body Model 3B; Device Meets MSL 1 Requirements; Pb-Free Packages are Available
+K
+F https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF
+$ENDCMP
+#End Doc Library

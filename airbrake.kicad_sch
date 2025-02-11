@@ -7922,6 +7922,10 @@
 		(uuid "0aed8b5c-4b56-4153-bb8d-9c90433e938b")
 	)
 	(no_connect
+		(at 228.6 58.42)
+		(uuid "1063711a-c9af-4396-a86c-70194ff35aa9")
+	)
+	(no_connect
 		(at 135.89 35.56)
 		(uuid "10db4552-6080-46f2-ba59-a0459e8f0421")
 	)
@@ -8002,20 +8006,16 @@
 		(uuid "c1d63cbd-bae9-4da0-b031-4caeaa6505eb")
 	)
 	(no_connect
-		(at 228.6 58.42)
-		(uuid "c3fd73be-e3c6-4f59-874e-23929c7fdd2d")
-	)
-	(no_connect
 		(at 228.6 45.72)
 		(uuid "def39745-9e99-4acc-873a-fdd380dc56d6")
 	)
 	(no_connect
-		(at 181.61 33.02)
-		(uuid "f22c3c7b-222f-4113-8bca-9dbe5217c04f")
+		(at 264.16 73.66)
+		(uuid "e59f6eea-2c94-4544-b156-bdb8b9a95fab")
 	)
 	(no_connect
-		(at 228.6 53.34)
-		(uuid "f7231a29-8085-46c9-b9da-0f834e7d02da")
+		(at 181.61 33.02)
+		(uuid "f22c3c7b-222f-4113-8bca-9dbe5217c04f")
 	)
 	(wire
 		(pts
@@ -10089,6 +10089,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 53.34) (xy 228.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a43414f-eb15-4366-8487-8db75593f288")
+	)
+	(wire
+		(pts
 			(xy 123.19 101.6) (xy 127 101.6)
 		)
 		(stroke
@@ -11096,16 +11106,6 @@
 			(type default)
 		)
 		(uuid "ce8d06ad-e910-474a-9a59-e15329f71da9")
-	)
-	(wire
-		(pts
-			(xy 265.43 73.66) (xy 264.16 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceeded81-f8d6-4039-bc45-1554202fb903")
 	)
 	(wire
 		(pts
@@ -13061,6 +13061,28 @@
 			)
 		)
 	)
+	(global_label "BAT_LEVEL"
+		(shape input)
+		(at 227.33 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "3d2c8659-55b2-4f79-8dba-17a6db1fda18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.4249 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "W25Q_WP"
 		(shape input)
 		(at 24.13 187.96 180)
@@ -13580,28 +13602,6 @@
 		(uuid "7becc2bc-6b31-4731-a051-c4e86eb242cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.0551 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT_LEVEL"
-		(shape input)
-		(at 265.43 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "7ecbb98b-2275-4274-99e6-5386148529f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.3351 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

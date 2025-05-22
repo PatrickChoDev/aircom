@@ -9,4 +9,5 @@
   (lib (name "TMP275AIDGKR")(type "KiCad")(uri "${KIPRJMOD}/parts/TMP275AIDGKR.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-TXO-32CSMV-320-AN-TR")(type "KiCad")(uri "${KIPRJMOD}/parts/ECS-TXO-32CSMV-320-AN-TR.kicad_sym")(options "")(descr ""))
   (lib (name "2171790001")(type "KiCad")(uri "${KIPRJMOD}/parts/2171790001.kicad_sym")(options "")(descr ""))
+  (lib (name "SRN5040-4R7M")(type "KiCad")(uri "${KIPRJMOD}/parts/SRN5040-4R7M.kicad_sym")(options "")(descr ""))
 )

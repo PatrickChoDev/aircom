@@ -36,3 +36,8 @@ gerber_to_order/
 
 # OS specific files
 .DS_Store
+
+output/
+*.txt
+*.log
+
